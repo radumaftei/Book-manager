@@ -1,4 +1,4 @@
-export const Authenticated = false;
+export let Authenticated = false;
 export const top100Films = [
   { title: 'The Shawshank Redemption', year: 1994 },
   { title: 'The Godfather', year: 1972 },
@@ -33,3 +33,21 @@ export const top100Films = [
   { title: 'American History X', year: 1998 },
   { title: 'Interstellar', year: 2014 },
 ];
+
+export const actionBooks = [
+  {
+    image: 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1569295288l/43263146.jpg'
+  },
+  {
+    image: 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1569597235l/45159185._SY475_.jpg'
+  },
+  {
+    image: 'https://images-eu.ssl-images-amazon.com/images/I/51NVzLF57FL.jpg'
+  },
+  {
+    image: 'https://images.penguinrandomhouse.com/cover/9781524736972'
+  },
+  {
+    image: 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328559506l/13335037.jpg'
+  }
+]

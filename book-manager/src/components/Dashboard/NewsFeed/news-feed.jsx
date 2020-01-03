@@ -9,7 +9,7 @@ import CheckBoxIcon from '@material-ui/icons/CheckBox';
 
 import '../../../styles.sass';
 import {top100Films} from "../../../shared/constants";
-import type {FilmOptionType} from "../../../shared/dtos";
+import {FilmOptionType} from "../../../shared/dtos";
 
 const icon = <CheckBoxOutlineBlankIcon fontSize="small" />;
 const checkedIcon = <CheckBoxIcon fontSize="small" />;
