@@ -11,8 +11,8 @@ function App() {
       <Switch>
         <Route path="/login" component={Login}/>
         {!Authenticated && <Redirect from="/" to="/login"/>}
-        {/*<Route path="/" component={NewsFeed}/>*/}
-        {/*{!Authenticated && <Redirect from="/" to="/dashboard"/>}*/}
+        <Route path="/" component={NewsFeed}/>
+        {!Authenticated && <Redirect from="/" to="/dashboard"/>}
       </Switch>
     </Router>
   );
